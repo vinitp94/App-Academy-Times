@@ -46,10 +46,12 @@
 	font-size: 11px;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	align-items: center;
 }
 
 .masthead-links ul {
 	display: flex;
+	align-items: center;
 }
 
 .masthead-links li {
@@ -74,7 +76,6 @@
 .masthead-links time {
 	margin-right: 10px;
 }
-
 
 .masthead-links strong {
 	color: green;

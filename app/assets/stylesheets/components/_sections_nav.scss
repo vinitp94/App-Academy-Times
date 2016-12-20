@@ -1,0 +1,26 @@
+.section-nav {
+  // position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.section-nav ul {
+  display: flex;
+}
+
+.section-nav button {
+  margin-right: 10px;
+  background: none;
+  color : #000;
+  padding: 2px;
+  font-weight: normal;
+}
+
+.section-nav button:hover {
+  background-color: $light-gray;
+}
+
+.section-nav #all:hover {
+  background: none;
+  text-decoration: underline;
+}
