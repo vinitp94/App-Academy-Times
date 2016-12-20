@@ -15,6 +15,7 @@
 	border-bottom: none;
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
+	align-items: center;
 }
 
 .language-nav a {
@@ -42,6 +43,10 @@
 	margin-bottom: 10px;
 }
 
+.masthead-links ul {
+	display: flex;
+}
+
 .masthead-links li {
 	margin-left: 10px;
 	border-right: 1px solid $light-gray;
@@ -60,7 +65,7 @@
 }
 
 .masthead-links a,
-.masthead-links button, 
+.masthead-links button,
 .masthead-links time {
 	margin-right: 10px;
 }
