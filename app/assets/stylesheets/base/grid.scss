@@ -18,11 +18,11 @@ with a class attribute containing 'col-' */
 }
 
 .col-second {
-  width: 45%;
+  width: 50%;
 }
 
 .col-third {
-  width: 35%;
+  width: 30%;
 }
 
 .col-split-third {
@@ -35,7 +35,7 @@ with a class attribute containing 'col-' */
   clear: both;
 }
 
-@media all and (max-width: 1000px) {
+@media all and (min-width: 500px) and (max-width: 1000px) {
   [class*='col-'] {
     width: 100%;
   }
