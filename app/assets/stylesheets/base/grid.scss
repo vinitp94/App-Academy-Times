@@ -14,7 +14,7 @@ with a class attribute containing 'col-' */
 }
 
 .col-first {
-  width: 25%;
+  width: 20%;
 }
 
 .col-second {
@@ -22,7 +22,11 @@ with a class attribute containing 'col-' */
 }
 
 .col-third {
-  width: 30%;
+  width: 35%;
+}
+
+.col-split-third {
+  width: 50%;
 }
 
 .cf:after {
