@@ -24,6 +24,7 @@
 }
 
 .right-nav > ul > li:last-of-type {
+  position: relative;
   padding: 5px;
 }
 
@@ -39,4 +40,5 @@
 
 .right-nav i {
   font-size: 20px;
+  align-items: center;
 }
